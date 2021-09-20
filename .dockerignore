@@ -1,0 +1,11 @@
+.DS_Store
+.git
+.cache
+.github
+.circleci
+.gitignore
+**/*.md
+**/*.yml
+**/*.yaml
+**/*.swp
+Makefile
