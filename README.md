@@ -15,3 +15,5 @@ docker run --pull always --rm -it \
 
 If you intend to run `docker-pip-tools` from a Makefile, please remember to use use `$(shell pwd)`
 instead of plain ol' `$(pwd)`.
+
+The entry point of the container is [`pip-compile`](https://pypi.org/project/pip-tools/).
