@@ -9,7 +9,7 @@ all package versions pinned.
 
 ```bash
 docker run --pull always --rm -it \
-  -v $(pwd):/app -w /app \
+  -v $(pwd):$(pwd) -w $(pwd) \
   databaseline/pip-compile requirements.in
 ```
 
