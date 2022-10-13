@@ -1,4 +1,4 @@
-FROM python:3.7-slim-buster AS py
+FROM python:3.10-slim-buster AS py
 LABEL org.opencontainers.image.authors="Ian Hellström" \
       org.opencontainers.image.source="https://github.com/ianhellstrom/docker-pip-tools" \
       org.opencontainers.image.vendor="Databaseline"
